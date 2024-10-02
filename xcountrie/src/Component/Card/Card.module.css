@@ -1,0 +1,25 @@
+.card{
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px 0px;
+    cursor: pointer;
+    text-align: center;
+}
+.img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+    filter: brightness(80%);
+}
+img:hover{
+    filter: brightness(100%);
+}
